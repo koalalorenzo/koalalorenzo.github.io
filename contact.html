@@ -125,12 +125,12 @@
                 x = x.replace(/(.{2})/g, "$1 ");
                 element.text("(" + prefix + ") " + x);
             }
-            
+
             setTimeout(function(){
               fix_number($("#mobile"), "+45");
               fix_number($("#voip"), "+39");
               fix_address($('#mail'));
-            } 1000);
+            }, 250);
         })
         </script>
     </body>
