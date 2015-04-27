@@ -1,0 +1,39 @@
+CACHE MANIFEST
+
+FALLBACK:
+/ /index.html 
+/avatar.png /img/avatar-250.jpg
+
+CACHE:
+about.html
+avatar.jpg
+cache.manifest
+contact.html
+css/bootstrap-theme.css
+css/bootstrap-theme.css.map
+css/bootstrap-theme.min.css
+css/bootstrap.css
+css/bootstrap.css.map
+css/bootstrap.min.css
+css/main.css
+css/pages/about.css
+css/pages/contact.css
+css/pages/index.css
+css/pages/works.css
+fonts/glyphicons-halflings-regular.eot
+fonts/glyphicons-halflings-regular.svg
+fonts/glyphicons-halflings-regular.ttf
+fonts/glyphicons-halflings-regular.woff
+fonts/glyphicons-halflings-regular.woff2
+gpgkey.asc
+index.html
+js/bootstrap.js
+js/bootstrap.min.js
+js/jquery-1.11.2.min.js
+js/npm.js
+works.html
+
+NETWORK:
+avatar.png
+gpgkey.asc.sig
+sitemap.xml
