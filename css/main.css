@@ -2,7 +2,7 @@ html, body {
 	margin: 0 auto;
 	padding: 0;
 	min-width: 500px;
-	margin-bottom: 100px;
+	margin-bottom: 25px;
 }
 
 .content-header {
@@ -13,4 +13,10 @@ html, body {
 
 header {
 	min-height: 260px;
+}
+
+footer {
+	margin-top: 50px;
+	margin-bottom: 75px;
+	text-align: center;
 }
