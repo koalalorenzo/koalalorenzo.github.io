@@ -1,0 +1,147 @@
+{
+ "address": "15wkSm1of5oDBzzWFEtr21yCr6ve7zKV49", 
+ "description": "Personal Website / Portfolio", 
+ "files": {
+  "CNAME": {
+   "sha512": "6490f4263ec77137ce510b1f8d4ca19f257db43852619b34b458bf188c737afa", 
+   "size": 25
+  }, 
+  "LICENSE": {
+   "sha512": "59d91ac8899876a36f384283eb3bbf5710814ef319bb0e2359ee5431db7ac3aa", 
+   "size": 18026
+  }, 
+  "README.md": {
+   "sha512": "80d6631e5f221ed85a4ac3c5014b79eecc400e438bec72ec8589301204ccaa78", 
+   "size": 67
+  }, 
+  "avatar.jpg": {
+   "sha512": "8c85428730173cede34b30ecdbf298845f8ba9700ab527bd327e4502eefd43fb", 
+   "size": 27965
+  }, 
+  "cache.manifest": {
+   "sha512": "ec4933a554b81ef9a4aff9b748abd5d30666192075d0a34b95f76d8876c7b70a", 
+   "size": 717
+  }, 
+  "contact.html": {
+   "sha512": "6ab79e59995975b87af1b3854685b1559dbe1ec83453527a0dc4937f44900018", 
+   "size": 42981
+  }, 
+  "css/animate.css": {
+   "sha512": "6dc8979e07b900891e2593d2f45717409124e9c6847a0b531676aad51f6566a4", 
+   "size": 72922
+  }, 
+  "css/bootstrap-theme.css": {
+   "sha512": "e0f10e5a37d109d33edd007050a75c67dd9a46fc6e588f77b1b6d84c00948a17", 
+   "size": 22608
+  }, 
+  "css/bootstrap-theme.css.map": {
+   "sha512": "bc4fe9266fee315afa4c8783bd6f2228a5d09995d7c6798a9fad6ff1fe7e7d63", 
+   "size": 43339
+  }, 
+  "css/bootstrap-theme.min.css": {
+   "sha512": "25e9c1fb897c6396f427ce302a98780001b33d68245067ac599e3592b25dd368", 
+   "size": 19963
+  }, 
+  "css/bootstrap.css": {
+   "sha512": "c577e65eabac387c6917fb94e5c265ee4fd171bb15b86dddce9d6906472c0897", 
+   "size": 141414
+  }, 
+  "css/bootstrap.css.map": {
+   "sha512": "a76585bac0e86e00eb2195aa84c2fa829cdb129aa59634c9d25cc29fcc278935", 
+   "size": 379710
+  }, 
+  "css/bootstrap.min.css": {
+   "sha512": "156cd61afc94eee7a8db549b8680a7aba63025f0ec8cf11af46f9298b4474c37", 
+   "size": 117150
+  }, 
+  "css/header.css": {
+   "sha512": "04527b4497014ba6ff337fd4a117d60f71a269944d53ba40421f14be859cae2e", 
+   "size": 558
+  }, 
+  "css/main.css": {
+   "sha512": "926b3f68cac9c5fdf4bd8ded85820238ee67741557c15ce64e76d231d86500ba", 
+   "size": 275
+  }, 
+  "css/pages/about.css": {
+   "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce", 
+   "size": 0
+  }, 
+  "css/pages/contact.css": {
+   "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce", 
+   "size": 0
+  }, 
+  "css/pages/index.css": {
+   "sha512": "c45b0beaff5dd9e4a2d9c32a64c607495a4f6624bcfa7792c041a92b76e3767c", 
+   "size": 487
+  }, 
+  "css/pages/works.css": {
+   "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce", 
+   "size": 0
+  }, 
+  "fonts/glyphicons-halflings-regular.eot": {
+   "sha512": "efc910c96b9f5c58ea11a84577cf60ae995503b1ee670bb7e7d4a413b7403769", 
+   "size": 20127
+  }, 
+  "fonts/glyphicons-halflings-regular.svg": {
+   "sha512": "c2e77eab327af1469097c31bc0daf820c066b0222059d8ff0ecebca974b62b75", 
+   "size": 108738
+  }, 
+  "fonts/glyphicons-halflings-regular.ttf": {
+   "sha512": "2b066e06506ef20d69698d37cdec552176ef3f64a1151a99a1d02d72d39ce12c", 
+   "size": 45404
+  }, 
+  "fonts/glyphicons-halflings-regular.woff": {
+   "sha512": "f5366ab255afefe3fe06150e8509e776b5618ff50fe3e0fa8e4d715d645b1e44", 
+   "size": 23424
+  }, 
+  "fonts/glyphicons-halflings-regular.woff2": {
+   "sha512": "3811804f56ec3c82f0bef35de0a9250e546a1e357fb59e2784f610d638fec355", 
+   "size": 18028
+  }, 
+  "gpgkey.asc": {
+   "sha512": "ce11c876381bf28f03b209e6c68854b8c68a3d12452f88bfc5a2a3d3ac4bb18d", 
+   "size": 34839
+  }, 
+  "gpgkey.asc.sig": {
+   "sha512": "e402ee5a5fe7d2a0eab0a94689ff4d8d7683541523d027e82c701b0c3aa652fd", 
+   "size": 842
+  }, 
+  "index.html": {
+   "sha512": "7d12e76e169a650d3c509ff8f998c8dcb3fb85409baca27d7937e40f273ff200", 
+   "size": 3490
+  }, 
+  "js/bootstrap.js": {
+   "sha512": "27c6fe4be4e10679ecf8487b2cb55844dc205d1354c7162dcb2645f41b3a4b7e", 
+   "size": 66732
+  }, 
+  "js/bootstrap.min.js": {
+   "sha512": "02d866a0e7ae7cf36dd5a34e318887a291102a74fbcb5e48786d1c7e860f143e", 
+   "size": 35452
+  }, 
+  "js/jquery-1.11.2.min.js": {
+   "sha512": "781acedc99de4ce8d53d9b43a158c645eab1b23dfdfd6b57b3c442b11acc4a34", 
+   "size": 95931
+  }, 
+  "sitemap.xml": {
+   "sha512": "2f11e5c95096f59bb3fbb39ee9afde964bd6a3cb1c33b03f9e98333ebb91447e", 
+   "size": 1372
+  }, 
+  "works.html": {
+   "sha512": "f1922040b78c8703f2633a1e5eba9c4f6d8c5cfaa0c1748adcdeb5493779ef17", 
+   "size": 54804
+  }
+ }, 
+ "ignore": "", 
+ "modified": 1442763714.247838, 
+ "sign": [
+  109468080235516051498798282088379557043900272803302155339898493406704164817212, 
+  80476423141129667755219269947161768140788455510589775479264522532793550663239
+ ], 
+ "signers_sign": "HF3doDO4aV6cts+LozQGzX/4e3aH4HwKCXHGva8tolTw/fHhNtvEjiPypt643+o8Js0c4ahPyv+1vTl5gkh1xo8=", 
+ "signs": {
+  "15wkSm1of5oDBzzWFEtr21yCr6ve7zKV49": "G/rUk6XiT6JNQM5Hq+lTnIIhKm9hc8rx2wdxbr3XwagYklLuzWgt4/NmiFkoAgqYAXOThTlf1q0AFE8+tfMVZ5Q="
+ }, 
+ "signs_required": 1, 
+ "title": "Who is Lorenzo Setale?", 
+ "zeronet_version": "0.3.2"
+}
