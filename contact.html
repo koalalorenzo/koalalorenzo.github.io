@@ -23,16 +23,6 @@
         <link rel="stylesheet" href="css/animate.css?v1">
     </head>
     <body>
-        <!-- Google Tag Manager -->
-        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJQ4MW"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-NJQ4MW');</script>
-        <!-- End Google Tag Manager -->
-
         <header>
             <div>
                 <a href="index.html" title="Lorenzo Setale" rel="home">
@@ -45,7 +35,7 @@
             </p>
             <nav>
                 <ul>
-                    <li><a href="http://who.is.lorenzo.setale.me/?">About</a></li>
+                    <li><a href="index.html">About</a></li>
                     <li><a href="http://blog.setale.me/">Blog</a></li>
                     <li><a href="works.html">Works</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -114,31 +104,29 @@
 
         <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
         <script type="text/javascript">
-        $(function(){
-            function fix_address(element) {
-                var x = element.attr("href");
-                x = x.replace("mailto:", "");
-                x = x.replace("@gmail.com", "");
-                x = x.replace("+public", "");
-                x = x.split("").reverse().join("")
-                element.attr("href", "mailto:"+x+"+public@gmail.com");
-                element.text(x+"@gmail.com");
-            }
-            function fix_number(element, prefix) {
-                var x = element.attr("href");
-                x = x.replace("tel:"+prefix, "");
-                x = x.split("").reverse().join("")
-                element.attr("href", "tel:"+prefix+x);
-                x = x.replace(/(.{2})/g, "$1 ");
-                element.text("(" + prefix + ") " + x);
-            }
+          function fix_address(element) {
+              var x = element.attr("href");
+              x = x.replace("mailto:", "");
+              x = x.replace("@gmail.com", "");
+              x = x.replace("+public", "");
+              x = x.split("").reverse().join("")
+              element.attr("href", "mailto:"+x+"+public@gmail.com");
+              element.text(x+"@gmail.com");
+          }
+          function fix_number(element, prefix) {
+              var x = element.attr("href");
+              x = x.replace("tel:"+prefix, "");
+              x = x.split("").reverse().join("")
+              element.attr("href", "tel:"+prefix+x);
+              x = x.replace(/(.{2})/g, "$1 ");
+              element.text("(" + prefix + ") " + x);
+          }
 
-            setTimeout(function(){
-              fix_number($("#mobile"), "+45");
-              fix_number($("#voip"), "+39");
-              fix_address($('#mail'));
-            }, 250);
-        })
+          setTimeout(function(){
+            // fix_number($("#mobile"), "+45");
+            // fix_number($("#voip"), "+39");
+            fix_address($('#mail'));
+          }, 250);
         </script>
     </body>
 </html>
