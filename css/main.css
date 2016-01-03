@@ -3,6 +3,8 @@ html, body {
 	padding: 0;
 	min-width: 500px;
 	margin-bottom: 25px;
+	color: #2e3436;
+	background-color: #eeeeec;
 }
 
 .content-header {
@@ -19,4 +21,5 @@ footer {
 	margin-top: 50px;
 	margin-bottom: 75px;
 	text-align: center;
+	color: #babdb6;
 }
