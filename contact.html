@@ -57,7 +57,11 @@
                     <table class="table table-striped">
                         <tr>
                             <td>Email address</td>
-                            <td><a id="mail" href="mailto:oznerolalaok+public@gmail.com">-- Enable Javascript --</a></td>
+                            <td><a id="mail0" href="mailto:oznerol@setale.me">-- Enable Javascript --</a></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td><a id="mail1" href="mailto:elates.oznerol@me.com">-- Enable Javascript --</a></td>
                         </tr>
                         <tr>
                             <td>Skype</td>
@@ -105,14 +109,13 @@
 
         <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
         <script type="text/javascript">
-          function fix_address(element) {
+          function fix_address(element, domain) {
               var x = element.attr("href");
               x = x.replace("mailto:", "");
-              x = x.replace("@gmail.com", "");
-              x = x.replace("+public", "");
+              x = x.replace(domain, "");
               x = x.split("").reverse().join("")
-              element.attr("href", "mailto:"+x+"+public@gmail.com");
-              element.text(x+"@gmail.com");
+              element.attr("href", "mailto:"+x+domain);
+              element.text(x+domain);
           }
           function fix_number(element, prefix) {
               var x = element.attr("href");
@@ -126,7 +129,8 @@
           setTimeout(function(){
             // fix_number($("#mobile"), "+45");
             // fix_number($("#voip"), "+39");
-            fix_address($('#mail'));
+            fix_address($('#mail0'), "@setale.me");
+            fix_address($('#mail1'), "@me.com");
           }, 250);
         </script>
         <footer>
