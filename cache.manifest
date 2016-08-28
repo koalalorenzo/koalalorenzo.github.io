@@ -35,5 +35,6 @@ works.html
 
 NETWORK:
 avatar.png
-gpgkey.asc.sig
+openpgp/protonmail_koalalorenzo.asc
+openpgp/gpgkey.asc.sig
 sitemap.xml
