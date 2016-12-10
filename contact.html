@@ -36,10 +36,10 @@
             </p>
             <nav>
                 <ul>
-                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html" data-instant>About</a></li>
                     <li><a href="https://blog.setale.me/">Blog</a></li>
-                    <li><a href="works.html">Works</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="works.html" data-instant>Works</a></li>
+                    <li><a href="contact.html" data-instant>Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -159,5 +159,7 @@
           ga('send', 'pageview');
 
         </script>
+        <script src="js/instantclick.min.js" data-no-instant></script>
+        <script data-no-instant>InstantClick.init();</script>
     </body>
 </html>
