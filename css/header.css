@@ -1,19 +1,24 @@
 header img {
 	border-radius: 100%;
-	max-width: 125px;
-	max-height: 125px;
-	min-height: 50px;
-	min-width: 50px;
+	max-width: 9em;
+	max-height: 9em;
+	min-height: 4em;
+	min-width: 4em;
 }
 
 header {
-	padding-top: 25px;
+	padding-top: 1.78em;
 	margin: 0 auto;
 	text-align: center;
 }
 
+header .lead {
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+}
+
 header h1 {
-	font-size: 22px;
+	font-size: 2em;
 }
 
 header a {
@@ -32,7 +37,7 @@ header ul {
 header ul li {
 	display: inline;
 	padding: 5px 10px;
-	font-size: 18px;
+	font-size: 1.2em;
 }
 
 header ul li:first-child {
@@ -41,7 +46,7 @@ header ul li:first-child {
 }
 
 header p {
-	font-size: 16px;
+	font-size: 1.14em;
 	font-weight: normal;
-	line-height: 18px
+	line-height: 1.2em
 }

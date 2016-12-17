@@ -1,25 +1,24 @@
 html, body {
 	margin: 0 auto;
 	padding: 0;
-	min-width: 500px;
-	margin-bottom: 25px;
+	margin-bottom: 1.75em;
 	color: #2e3436;
 	background-color: #eeeeec;
 }
 
 .content-header {
 	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 30px;
+	margin-top: 3.75em;
+	margin-bottom: 2.14em;
 }
 
 header {
-	min-height: 260px;
+	min-height: 18em;
 }
 
 footer {
-	margin-top: 50px;
-	margin-bottom: 75px;
+	margin-top: 3.75em;
+	margin-bottom: 5.30em;
 	text-align: center;
 	color: #babdb6;
 }
