@@ -1,5 +1,12 @@
 header img {
 	border-radius: 100%;
+	max-width: 7em;
+	max-height: 7em;
+	min-height: 3em;
+	min-width: 3em;
+}
+
+header img.bigger-image {
 	max-width: 9em;
 	max-height: 9em;
 	min-height: 4em;
