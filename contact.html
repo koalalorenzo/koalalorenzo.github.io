@@ -118,7 +118,7 @@
         <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
         <script type="text/javascript">
           function fix_address(element, domain) {
-              var x = element.attr("href");
+              let x = element.attr("href");
               x = x.replace("mailto:", "");
               x = x.replace(domain, "");
               x = x.split("").reverse().join("")
@@ -126,7 +126,7 @@
               element.text(x+domain);
           }
           function fix_number(element, prefix) {
-              var x = element.attr("href");
+              let x = element.attr("href");
               x = x.replace("tel:"+prefix, "");
               x = x.split("").reverse().join("")
               element.attr("href", "tel:"+prefix+x);
@@ -135,7 +135,7 @@
           }
 
           setTimeout(function(){
-            fix_number($("#mobile"), "+45");
+            // fix_number($("#mobile"), "+45");
             // fix_number($("#voip"), "+39");
             fix_address($('#mail0'), "@setale.me");
             // fix_address($('#mail1'), "@me.com");
