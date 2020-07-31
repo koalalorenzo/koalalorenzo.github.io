@@ -28,7 +28,7 @@
         <header>
             <div>
                 <a href="index.html" title="Lorenzo Setale" rel="home">
-                    <img itemprop="image" width="180px" height="180px" src="avatar.jpg"><br/>
+                    <img id="avatar" itemprop="image" width="200px" height="200px" src="avatar.jpg"><br/>
                     <h1>Lorenzo Setale</h1>
                 </a>
             </div>
@@ -120,6 +120,15 @@
             fix_address($('#mail0'), "@setale.me");
             // fix_address($('#mail1'), "@me.com");
           }, 250);
+        </script>
+        <script type="text/javascript">
+          function random_avatar() {
+            var max = 5;
+            var min = 1;
+            var rand = Math.floor(Math.random()*(max-min+1)+min);
+            $('#avatar').attr("src", "img/avatar-"+rand+".jpg")
+          }
+          setInterval(random_avatar, 1500);
         </script>
         <footer>
           <div align="center">
